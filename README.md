@@ -1,90 +1,27 @@
-# Suite
+# redux-saga-beginner-tutorial
+Companion Repo for [Redux/Redux-saga beginner tutorial](https://github.com/redux-saga/redux-saga/blob/master/docs/introduction/BeginnerTutorial.md)
 
-Suite - это мой бойлерплейт для приложения на React. В данный момент находится в разработке.
+# Instructions
 
+Setup
 
-# Что планируется
+```
+// clone the repo
+git clone https://github.com/redux-saga/redux-saga-beginner-tutorial.git
 
-  - Библиотека стилей компонентов на SCSS для быстрой настройки тем
-  - Настройка react-router-dom
-  - Общий комплект утилит для работы с текстом и числами (склонение, числительные, рода и т.д.)
-  - Интеграция с MongoDB
-  - Настройка Redux (Redux-Rematch)
-  - Демо-приложение
+cd redux-saga-beginner-tutorial
 
-# Что сделано
+npm install
+```
 
-  - Установлен и натроен Webpack:
-    * установлен и настроен webpack-dev-server
-    * реализованы dev, analyze и prod конфигурации webpack config
-  - Настроен импорт SCSS в компоненты приложения
-  - Установлен и настроен TypeScript
-  - Для транспиляции кода используется Babel
-  - Установлен и настроен ESlint
-  - Для юнит тестирования используется Jest + Enzyme
-  - Для E2E тестирования используется Cypress
-  - Намечена файловая структура
+Run the demo
 
+```
+npm start
+```
 
-# Как стартануть проект
+Run tests
 
-Для корректной работы приложения на машине должен быть установлен Node.js 12+.
-
-1. Клонировать проект на локальную машину:
-    ```sh
-    $ git clone https://github.com/Binetsky/suite.git
-    ```
-2. Установить зависимости проекта:
-    ```sh
-    $ npm i
-    ```
-3. Запустить локальный Дев-сервер:
-    ```sh
-    $ npm start
-    ```
-
-
-# Другие NPM команды проекта
-
-1. Скомпилировать prod версию проекта:
-    ```sh
-    $ npm run build
-    ```
-2. Проанализировать состав проекта:
-    ```sh
-    $ npm run analyze
-    ```
-3. Проверить код линтом:
-    ```sh
-    $ npm run lint
-    ```
-4. Проверить код на ошибки в TypeScript:
-    ```sh
-    $ npm run tsc
-    ```
-5. Комплексная проверка lint + tsc:
-    ```sh
-    $ npm run check
-    ```
-6. Очистка директории dist:
-    ```sh
-    $ npm run clean
-    ```
-1. Запуск тестов Jest для проекта:
-    ```sh
-    $ npm run test
-    ```
-
-
-# Над бойлерплейтом работают
-[Алексей Бинецкий](https://github.com/Binetsky)
-
-
-Лицензия
-----
-
-MIT
-
-
-[//]: # (Оставь надежду всяк сюда приходящий)
-
+```
+npm test
+```
